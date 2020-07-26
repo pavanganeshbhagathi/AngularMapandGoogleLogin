@@ -6,17 +6,21 @@ import { AppComponent } from './app.component';
 import { GoogleComponent } from './google/google.component';
 import { SocialLoginModule, SocialAuthServiceConfig } from 'angularx-social-login';
 import { GoogleLoginProvider } from 'angularx-social-login';
+import { WeatherComponent } from './weather/weather.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
     GoogleComponent,
+    WeatherComponent,
 
   ],
   imports: [
     BrowserModule,
     SocialLoginModule,
     AppRoutingModule,
+    HttpClientModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyDJ-WiPBLTmN1VNiiMm2Dez72VSbMmf0RU'
     })
