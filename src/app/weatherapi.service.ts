@@ -8,7 +8,7 @@ import { tap, catchError } from 'rxjs/operators';
 export class WeatherapiService {
 
 
-  private apikey: any = 'ff1bc4683fc7325e9c57e586c20cc03e';
+  private apikey: any = '3cfc48467a4da0ae5fe48e7418057143';
    constructor(private http: HttpClient) { }
 
 //http://api.openweathermap.org/data/2.5/weather?lat=35&lon=135&appid=3cfc48467a4da0ae5fe48e7418057143

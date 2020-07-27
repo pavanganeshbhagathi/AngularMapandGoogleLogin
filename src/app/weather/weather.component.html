@@ -9,8 +9,32 @@
       <i class="fas fa-cloud fa-3x cloud"></i>
   </div>
   <div class="weatherWidgetRow" style="font-size: 32px;margin-top: 5px;">{{WeatherData.temp_celcius}}°</div>
-  <div class="weatherWidgetRow" style="font-size: 12px;">{{WeatherData.temp_min}}° / {{WeatherData.temp_max}}°</div>
-  <div class="weatherWidgetRow" style="font-size: 12px;">Feels Like: {{WeatherData.temp_feels_like}}°</div>
-  <div class="weatherWidgetRow" style="font-size: 25px;margin-top: 10px;">{{WeatherData.name}}</div>
+  <div class="weatherWidgetRow" style="font-size: 12px;">{{WeatherData.main.temp_min}}° / {{WeatherData.main.temp_max}}°</div>
+  <div class="weatherWidgetRow" style="font-size: 12px;">Feels Like: {{WeatherData.main.feels_like}}°</div>
+  <div class="weatherWidgetRow" style="font-size: 25px;margin-top: 10px;">{{WeatherData.main.name}}</div>
   <div class="weatherWidgetRow" style="font-size: 12px;">Humidity: {{WeatherData.main.humidity}}%</div>
+    <div class="weatherWidgetRow" style="font-size: 12px;">windSpeed: {{WeatherData.wind.speed}}%</div>
+
 </div>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans|Maven+Pro:500' rel='stylesheet' type='text/css'>
+
+
+
+<section>
+
+<div class="wrap">
+   <div class="inside">
+     <span>doctor</span>
+     <div class="tie-wrap">
+       <div class="tie"></div>
+     </div>
+   </div>
+  <div class="button">
+    <div class="front">
+      <span>tardis</span>
+    </div>
+    <div class="back"></div>
+  </div>
+</div>
+
+</section>
