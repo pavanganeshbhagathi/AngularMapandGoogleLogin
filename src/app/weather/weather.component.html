@@ -11,9 +11,11 @@
   <div class="weatherWidgetRow" style="font-size: 32px;margin-top: 5px;">{{WeatherData.temp_celcius}}°</div>
   <div class="weatherWidgetRow" style="font-size: 12px;">{{WeatherData.main.temp_min}}° / {{WeatherData.main.temp_max}}°</div>
   <div class="weatherWidgetRow" style="font-size: 12px;">Feels Like: {{WeatherData.main.feels_like}}°</div>
-  <div class="weatherWidgetRow" style="font-size: 25px;margin-top: 10px;">{{WeatherData.main.name}}</div>
+  <div class="weatherWidgetRow" style="font-size: 25px;margin-top: 10px;">{{WeatherData.name}}</div>
   <div class="weatherWidgetRow" style="font-size: 12px;">Humidity: {{WeatherData.main.humidity}}%</div>
     <div class="weatherWidgetRow" style="font-size: 12px;">windSpeed: {{WeatherData.wind.speed}}%</div>
+
+     <div class="weatherWidgetRow"  style="font-size: 12px;">windSpeed: {{WeatherData.weather.base}}%</div>
 
 </div>
 <link href='https://fonts.googleapis.com/css?family=Open+Sans|Maven+Pro:500' rel='stylesheet' type='text/css'>

@@ -19,8 +19,14 @@ export class WeatherComponent implements OnInit {
     console.log(JSON.stringify(this.WeatherData.weather));
   }
 
-  getWeatherData(): any{
+ /* getWeatherData(): any{
     this.weatherapiService.getWeather('35', '139').subscribe((response) =>
+    this.WeatherData = response);
+    console.log(JSON.stringify(this.WeatherData));
+
+  }*/
+  getWeatherData(): any{
+    this.weatherapiService.getWeatherbyName('hyderabad').subscribe((response) =>
     this.WeatherData = response);
     console.log(JSON.stringify(this.WeatherData));
 
